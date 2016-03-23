@@ -4,7 +4,6 @@ var mongoose = restful.mongoose;
 
 //Schema
 var quoteSchema = new mongoose.Schema({
-  id: Number,
   quote_content: String,
   author: String,
   mood: String
