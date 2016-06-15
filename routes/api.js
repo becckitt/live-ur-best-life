@@ -6,7 +6,7 @@ var router = express.Router();
 var Quote = require('../models/quote');
 
 // Routes
-Quote.methods(['get', 'put', 'post', 'delete']);
+Quote.methods(['get']);
 Quote.register(router, '/quotes')
 
 // Return router
