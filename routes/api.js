@@ -7,7 +7,7 @@ var Quote = require('../models/quote');
 
 // Routes
 Quote.methods(['get']);
-Quote.register(router, '/quotes')
+Quote.register(router, '/quotes');
 
 // Return router
 module.exports = router;
